@@ -92,4 +92,4 @@ class Validador:
         self.regla: ReglaValidacion = regla
 
     def es_valida(self, clave: str) -> bool:
-        pass
+        return self.regla.es_valida(clave)
